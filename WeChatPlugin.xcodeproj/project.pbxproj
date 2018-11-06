@@ -43,8 +43,6 @@
 		526F4D841F4AAC1900E46004 /* TKAutoReplyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F4D821F4AAC1900E46004 /* TKAutoReplyModel.m */; };
 		527D017320903C1B007155C9 /* NSMenuItem+Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 527D017120903C1B007155C9 /* NSMenuItem+Action.h */; };
 		527D017420903C1B007155C9 /* NSMenuItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D017220903C1B007155C9 /* NSMenuItem+Action.m */; };
-		527E7F622018711800358D26 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 527E7F602018711800358D26 /* fishhook.c */; };
-		527E7F632018711800358D26 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 527E7F612018711800358D26 /* fishhook.h */; };
 		528B4F971EA7383800BC6A89 /* WeChatPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 528B4F951EA7383800BC6A89 /* WeChatPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		528B4FB41EA7386D00BC6A89 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 528B4FAA1EA7386D00BC6A89 /* main.mm */; };
 		529950622113DAF10008BEE3 /* TKCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 529950602113DAF10008BEE3 /* TKCacheManager.h */; };
@@ -61,8 +59,6 @@
 		52B5CF191F3B4631000D9DD9 /* TKRemoteControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CF001F3B4631000D9DD9 /* TKRemoteControlModel.m */; };
 		52B5CF1A1F3B4631000D9DD9 /* TKHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5CF021F3B4631000D9DD9 /* TKHelper.h */; };
 		52B5CF1B1F3B4631000D9DD9 /* TKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CF031F3B4631000D9DD9 /* TKHelper.m */; };
-		52B5CF1C1F3B4631000D9DD9 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5CF041F3B4631000D9DD9 /* XMLReader.h */; };
-		52B5CF1D1F3B4631000D9DD9 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CF051F3B4631000D9DD9 /* XMLReader.m */; };
 		52CD4C58209C5CA10061A5D6 /* NSWindowController+Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CD4C56209C5CA10061A5D6 /* NSWindowController+Action.h */; };
 		52CD4C59209C5CA10061A5D6 /* NSWindowController+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD4C57209C5CA10061A5D6 /* NSWindowController+Action.m */; };
 		52CD4C5E209CA0510061A5D6 /* TKAboutWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CD4C5B209CA0510061A5D6 /* TKAboutWindowController.h */; };
@@ -131,8 +127,6 @@
 		526F4D821F4AAC1900E46004 /* TKAutoReplyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAutoReplyModel.m; sourceTree = "<group>"; };
 		527D017120903C1B007155C9 /* NSMenuItem+Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMenuItem+Action.h"; sourceTree = "<group>"; };
 		527D017220903C1B007155C9 /* NSMenuItem+Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMenuItem+Action.m"; sourceTree = "<group>"; };
-		527E7F602018711800358D26 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		527E7F612018711800358D26 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		528B4F921EA7383800BC6A89 /* WeChatPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeChatPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528B4F951EA7383800BC6A89 /* WeChatPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatPlugin.h; sourceTree = "<group>"; };
 		528B4F961EA7383800BC6A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -151,8 +145,6 @@
 		52B5CF001F3B4631000D9DD9 /* TKRemoteControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRemoteControlModel.m; sourceTree = "<group>"; };
 		52B5CF021F3B4631000D9DD9 /* TKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKHelper.h; sourceTree = "<group>"; };
 		52B5CF031F3B4631000D9DD9 /* TKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKHelper.m; sourceTree = "<group>"; };
-		52B5CF041F3B4631000D9DD9 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
-		52B5CF051F3B4631000D9DD9 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		52CD4C56209C5CA10061A5D6 /* NSWindowController+Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSWindowController+Action.h"; sourceTree = "<group>"; };
 		52CD4C57209C5CA10061A5D6 /* NSWindowController+Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController+Action.m"; sourceTree = "<group>"; };
 		52CD4C5B209CA0510061A5D6 /* TKAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAboutWindowController.h; sourceTree = "<group>"; };
@@ -219,8 +211,6 @@
 			children = (
 				52B5CF021F3B4631000D9DD9 /* TKHelper.h */,
 				52B5CF031F3B4631000D9DD9 /* TKHelper.m */,
-				52B5CF041F3B4631000D9DD9 /* XMLReader.h */,
-				52B5CF051F3B4631000D9DD9 /* XMLReader.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -306,15 +296,6 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		527E7F5F2018711800358D26 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				527E7F602018711800358D26 /* fishhook.c */,
-				527E7F612018711800358D26 /* fishhook.h */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
 		528B4F881EA7383800BC6A89 = {
 			isa = PBXGroup;
 			children = (
@@ -360,7 +341,6 @@
 			children = (
 				52CD4C9020A088590061A5D6 /* Hook */,
 				52CD4C75209ED2160061A5D6 /* Views */,
-				527E7F5F2018711800358D26 /* Vendor */,
 				526F4D781F4AAADA00E46004 /* Common */,
 				52B5CEF81F3B4631000D9DD9 /* Config */,
 				52B5CEFE1F3B4631000D9DD9 /* Models */,
@@ -490,7 +470,6 @@
 				522547DE1F4C312A00226A2A /* TKAutoReplyWindowController.h in Headers */,
 				5228EABA1F70B59500D808CF /* NSButton+Action.h in Headers */,
 				526F4D7D1F4AAADA00E46004 /* ColorConstant.h in Headers */,
-				527E7F632018711800358D26 /* fishhook.h in Headers */,
 				528B4F971EA7383800BC6A89 /* WeChatPlugin.h in Headers */,
 				526F4D801F4AAADA00E46004 /* TKPrefixHeader.pch in Headers */,
 				52EA235920862D19008E6329 /* TKHTTPManager.h in Headers */,
@@ -500,7 +479,6 @@
 				52B5CF1A1F3B4631000D9DD9 /* TKHelper.h in Headers */,
 				52CD4C83209ED23B0061A5D6 /* TKRemoteControlCell.h in Headers */,
 				527D017320903C1B007155C9 /* NSMenuItem+Action.h in Headers */,
-				52B5CF1C1F3B4631000D9DD9 /* XMLReader.h in Headers */,
 				523848AB1F70E73500771BA3 /* NSTextField+Action.h in Headers */,
 				52CD4C7C209ED2300061A5D6 /* TKAutoReplyCell.h in Headers */,
 				52CD4C9820A0885A0061A5D6 /* WeChat+hook.h in Headers */,
@@ -540,7 +518,6 @@
 				528B4F8F1EA7383800BC6A89 /* Headers */,
 				528B4F901EA7383800BC6A89 /* Resources */,
 				528B4FB51EA738B100BC6A89 /* ShellScript */,
-				165746E0A28B760DEA538E0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -604,21 +581,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		165746E0A28B760DEA538E0D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatPlugin/Pods-WeChatPlugin-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		528B4FB51EA738B100BC6A89 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,7 +592,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\napp_name=\"WeChat\"\nframework_name=\"WeChatPlugin\"\napp_bundle_path=\"/Applications/${app_name}.app/Contents/MacOS\"\napp_executable_path=\"${app_bundle_path}/${app_name}\"\napp_executable_backup_path=\"${app_executable_path}_backup\"\nframework_path=\"${app_bundle_path}/${framework_name}.framework\"\n# 备份WeChat原始可执行文件\nif [ ! -f \"$app_executable_backup_path\" ]\nthen\ncp \"$app_executable_path\" \"$app_executable_backup_path\"\nfi\n\nrm -rf \"./Other/Products/Debug/${framework_name}.framework\"\ncp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" \"./Other/Products/Debug/${framework_name}.framework\"\ncp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" ${app_bundle_path}\n./Other/insert_dylib --all-yes \"${framework_path}/${framework_name}\" \"$app_executable_backup_path\" \"$app_executable_path\"";
+			shellScript = "#!/bin/bash\napp_name=\"WeChat\"\nframework_name=\"WeChatPlugin\"\napp_bundle_path=\"/Applications/${app_name}.app/Contents/MacOS\"\napp_executable_path=\"${app_bundle_path}/${app_name}\"\napp_executable_backup_path=\"${app_executable_path}_backup\"\nframework_path=\"${app_bundle_path}/${framework_name}.framework\"\n# 备份WeChat原始可执行文件\n#if [ ! -f \"$app_executable_backup_path\" ]; then\n#cp \"$app_executable_path\" \"$app_executable_backup_path\"\n#fi\n\n#rm -rf \"./Other/Products/Debug/${framework_name}.framework\"\n#cp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" \"./Other/Products/Debug/${framework_name}.framework\"\n#cp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" ${app_bundle_path}\n#./Other/insert_dylib --all-yes \"${framework_path}/${framework_name}\" \"$app_executable_backup_path\" \"$app_executable_path\"";
 		};
 		A23204925F0A37A0EBE14B92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -647,7 +609,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -666,7 +628,6 @@
 				522547E21F4C312A00226A2A /* TKRemoteControlWindowController.m in Sources */,
 				529CDDFF1F6E6A060056DC1A /* TKBaseModel.m in Sources */,
 				52DA3E0E2094790900C618BB /* TKDownloadWindowController.m in Sources */,
-				527E7F622018711800358D26 /* fishhook.c in Sources */,
 				52176DDA209809CE0035FA50 /* NSString+Action.m in Sources */,
 				529950632113DAF10008BEE3 /* TKCacheManager.m in Sources */,
 				52EA235A20862D19008E6329 /* TKHTTPManager.m in Sources */,
@@ -689,7 +650,6 @@
 				52CD4C82209ED23B0061A5D6 /* TKRemoteControlCell.m in Sources */,
 				528B4FB41EA7386D00BC6A89 /* main.mm in Sources */,
 				52CD4C9A20A0885A0061A5D6 /* MMStickerMessageCellView+hook.m in Sources */,
-				52B5CF1D1F3B4631000D9DD9 /* XMLReader.m in Sources */,
 				52475C331F6BA43800760E3E /* TKIgnoreSessonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -867,6 +827,7 @@
 				INFOPLIST_FILE = WeChatPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.WeChatPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -889,6 +850,7 @@
 				INFOPLIST_FILE = WeChatPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.WeChatPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

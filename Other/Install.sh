@@ -2,14 +2,12 @@
 
 wechat_path="/Applications/WeChat.app"
 
-if [ ! -d "$wechat_path" ]
-then
-wechat_path="/Applications/微信.app"
-if [ ! -d "$wechat_path" ]
-then
-echo -e "\n\n应用程序文件夹中未发现微信，请检查微信是否有重命名或者移动路径位置"
-exit
-fi
+if [ ! -d "$wechat_path" ]; then
+    wechat_path="/Applications/微信.app"
+    if [ ! -d "$wechat_path" ]; then
+        echo -e "\n\n应用程序文件夹中未发现微信，请检查微信是否有重命名或者移动路径位置"
+        exit
+    fi
 fi
 
 app_name="WeChat"
@@ -22,19 +20,17 @@ framework_path="${app_bundle_path}/${framework_name}.framework"
 
 
 # 对 WeChat 赋予权限
-if [ ! -w "$wechat_path" ]
-then
-echo -e "\n\n为了将小助手写入微信, 请输入密码 ： "
-sudo chown -R $(whoami) "$wechat_path"
+if [ ! -w "$wechat_path" ]; then
+    echo -e "\n\n为了将小助手写入微信, 请输入密码 ： "
+    sudo chown -R $(whoami) "$wechat_path"
 fi
 
 # 备份 WeChat 原始可执行文件
-if [ ! -f "$app_executable_backup_path" ]
-then
-cp "$app_executable_path" "$app_executable_backup_path"
-result="y"
+if [ ! -f "$app_executable_backup_path" ]; then
+    cp "$app_executable_path" "$app_executable_backup_path"
+    result="y"
 else
-read -t 150 -p "已安装微信小助手，是否覆盖？[y/n]:" result
+    read -t 150 -p "已安装微信小助手，是否覆盖？[y/n]:" result
 fi
 
 if [[ "$result" == 'y' ]]; then
